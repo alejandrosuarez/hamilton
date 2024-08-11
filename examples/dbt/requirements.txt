@@ -6,3 +6,4 @@ duckdb==0.6.1  # required to read saved database.duckdb file
 pandera
 scikit-learn
 sf-hamilton
+aiohttp>=3.10.2 # not directly required, pinned by Snyk to avoid a vulnerability
